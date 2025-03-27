@@ -1,8 +1,8 @@
 /**
- * @class TinyStore
+ * @class Breeze
  * @description A simple state management class.
  */
-export class TinyStore {
+export class Breeze {
   #state;
   #listeners;
   #isUpdating;

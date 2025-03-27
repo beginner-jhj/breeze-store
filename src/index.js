@@ -1,12 +1,12 @@
-import { TinyStore } from "./manager.js";
+import { Breeze } from "./manager.js";
 
 /**
  * @function createStore
  * @description A helper function to create a new Store instance with the provided initial state.
  * @param {Object} [initialState={}] - The initial state object for the store.
- * @returns {TinyStore} - A new instance of the store with the given initial state.
+ * @returns {Breeze} - A new instance of the store with the given initial state.
  */
 
-export function createStore(initialState) {
-  return new TinyStore(initialState);
+export function createBreeze(initialState) {
+  return new Breeze(initialState);
 }
