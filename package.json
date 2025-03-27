@@ -7,10 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/pico-state.git"
-  },
+  "repository": {"url": "https://github.com/beginner-jhj/tiny-store"},
   "keywords": ["state", "management", "tiny", "js"],
   "author": "jhj",
   "license": "MIT"
