@@ -1,8 +1,8 @@
 /**
- * @class Pico
+ * @class TinyStore
  * @description A simple state management class.
  */
-export class Pico {
+export class TinyStore {
   #state;
   #listeners;
   #isUpdating;
