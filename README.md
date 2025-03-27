@@ -13,6 +13,7 @@ You can install **Pico** via npm:
 ```bash
 npm install pico-state
 
+## Usage
 
 import { createPico } from 'pico-state';
 
