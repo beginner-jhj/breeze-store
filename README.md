@@ -1,6 +1,6 @@
-# Pico - A Tiny State Management Library
+# breeze-state - A Tiny State Management Library
 
-Pico is a lightweight and intuitive state management library for JavaScript. It provides a simple API to manage and update application state seamlessly without the complexity of large frameworks.
+breeze-state is a lightweight and intuitive state management library for JavaScript. It provides a simple API to manage and update application state seamlessly without the complexity of large frameworks.
 
 ---
 
@@ -8,21 +8,21 @@ Pico is a lightweight and intuitive state management library for JavaScript. It 
 
 ## Installation
 
-You can install **Pico** via npm:
+You can install **breeze-state** via npm:
 
 ```bash
-npm install pico-state
+npm install breeze-state
 
 
 ## Usage
 
-Once Pico is installed, you can import and use it as follows:
+Once breeze is installed, you can import and use it as follows:
 
 ```javascript
 // usage.js
-import { createPico } from 'pico-state';
+import { createBreeze } from 'breeze-state';
 
-const store = createPico({ count: 0 });
+const store = createBreeze({ count: 0 });
 
 // Get specific state or all state
 const count = store.getState('count');  // 0
