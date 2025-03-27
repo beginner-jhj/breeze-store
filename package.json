@@ -1,5 +1,5 @@
 {
-  "name": "mini-state",
+  "name": "breeze-state",
   "version": "1.0.0",
   "description": "A tiny and simple state management library for JavaScript.",
   "main": "./src/index.js",
