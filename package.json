@@ -1,5 +1,5 @@
 {
-  "name": "breeze-state",
+  "name": "nabi-state",
   "version": "1.0.1",
   "description": "A tiny and simple state management library for JavaScript.",
   "main": "./src/index.js",

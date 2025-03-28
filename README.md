@@ -1,6 +1,6 @@
-# breeze-state - A Tiny State Management Library
+# nabi-state - A Tiny State Management Library
 
-breeze-state is a lightweight and intuitive state management library for JavaScript. It provides a simple API to manage and update application state seamlessly without the complexity of large frameworks.
+nabi-state is a lightweight and intuitive state management library for JavaScript.
 
 ---
 
@@ -8,21 +8,21 @@ breeze-state is a lightweight and intuitive state management library for JavaScr
 
 ## Installation
 
-You can install **breeze-state** via npm:
+You can install **nabi-state** via npm:
 
 ```bash
-npm install breeze-state
+npm install nabi-state
 
 
 ## Usage
 
-Once breeze is installed, you can import and use it as follows:
+Once nabi-state is installed, you can import and use it as follows:
 
 ```javascript
 // usage.js
-import { createBreeze } from 'breeze-state';
+import { createStore } from 'nabi-state';
 
-const store = createBreeze({ count: 0 });
+const store = createStore({ count: 0 });
 
 // Get specific state or all state
 const count = store.getState('count');  // 0

@@ -1,8 +1,8 @@
 /**
- * @class Breeze
+ * @class Store
  * @description A simple state management class.
  */
-export class Breeze {
+export class Store {
   #state;
   #listeners;
   #isUpdating;

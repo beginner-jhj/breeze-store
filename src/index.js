@@ -1,4 +1,4 @@
-import { Breeze } from "./manager.js";
+import { Store } from "./manager.js";
 
 /**
  * @function createStore
@@ -7,6 +7,6 @@ import { Breeze } from "./manager.js";
  * @returns {Breeze} - A new instance of the store with the given initial state.
  */
 
-export function createBreeze(initialState) {
-  return new Breeze(initialState);
+export function createStore(initialState) {
+  return new Store(initialState);
 }
