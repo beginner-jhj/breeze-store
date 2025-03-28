@@ -1,4 +1,4 @@
-import { Store } from "./manager.js";
+import { Store } from "./store.js";
 
 /**
  * @function createStore
